@@ -1,0 +1,1 @@
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.1vuezum.mongodb.net/users?retryWrites=true&w=majority
