@@ -47,7 +47,7 @@ const Editor = () => {
     }, []);
 
     useEffect(() => {
-        const socketServer = io('http://localhost:9000');
+        const socketServer = io('https://sync-pad.onrender.com');
         setSocket(socketServer);
 
         return () => {
